@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Exhibition" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ExhibitionChallenge" TARGET_NAME="ExhibitionChallenge" CONFIG_NAME="Debug" SCHEME_NAME="Exhibition" RUN_TARGET_PROJECT_NAME="ExhibitionChallenge" RUN_TARGET_NAME="ExhibitionChallenge" MAKE_ACTIVE="TRUE">
+    <envs />
+    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+      <REVEAL_SETTINGS autoInject="true" autoInstall="true" askToEnableAutoInstall="true" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>
