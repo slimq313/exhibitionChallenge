@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ECViewController : UIViewController
+@interface ECViewController : UIViewController 
 
 @end
 

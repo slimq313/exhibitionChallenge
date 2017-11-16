@@ -7,6 +7,7 @@
 //
 
 #import "CustomViewController.h"
+#import "ECViewController.h"
 
 @interface CustomViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // Create an instance of Class1
+    ECViewController *class1Instance =  [ECViewController new];
+    
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(reShuffled)];
+    singleTap.numberOfTapsRequired = 1;
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +31,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (void)reShuffled {
+    NSLog(@"single Tap on imageview");
+}
 
 @end

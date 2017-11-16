@@ -27,7 +27,6 @@
 
 @implementation ECViewController
 
-
 - (void)loadView {
 
     [super loadView];
@@ -85,6 +84,7 @@
     [self startRotateTimer];
 }
 
+//timer
 - (void) startRotateTimer {
     [NSTimer scheduledTimerWithTimeInterval:40.0f
                                      target:self selector:@selector(startRotateAnimation:) userInfo:nil repeats:YES];
